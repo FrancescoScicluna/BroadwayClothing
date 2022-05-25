@@ -1,0 +1,281 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+:root {
+    --mainFont: 'Nanum Gothic', sans-serif;
+}
+
+.navigationEditing {
+    height: 75px;
+    background-color: #ffffff;
+}
+
+.topNAV {
+    text-align: center;
+    color: #000000 !important;
+    background-color: #F1EDEE;
+    height: 50px;
+    padding: 5px;
+    font-family: var(--mainFont);
+}
+
+.navigationEditingDark {
+    height: 100px;
+    background-color: black;
+}
+
+.navbarItemsConstant{
+    color: #F8F0E3;
+}
+
+.firstFooter{
+    height: 50px;
+}
+
+.iconEdit{
+    text-align: center;
+}
+
+.navbar-item:hover {
+    color: #F1EDEE;
+}
+
+.landingPageIMG{
+    background-image: url(../Images/landingPage.webp);
+}
+
+.secondFooter {
+    min-height: 200px;
+    background-color: #d7d3d4;
+    color: rgb(78, 78, 78);
+    text-align: center;
+    padding: 10px;
+}
+
+.thirdFooter {
+    height: 25px;
+    color: rgb(78, 78, 78);
+    background-color: #bdb8b9;
+    text-align: center;
+    bottom:0;
+}
+
+.footerLinks{
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+}
+
+.footerLinks:hover{
+    color: rgb(168, 168, 168);
+}
+
+.mapSize {
+    width: 400px;
+    padding-bottom: 75px;
+}
+
+.clothingBody {
+    background-color: #F1EDEE;
+}
+
+.indexBody{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navUL {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigationText{
+    color:white;
+}
+
+.navBarItemTextSize{
+    font-size: 30px;
+}
+
+.langingPageText{
+    font-size: 70px;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.containerHome{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 180%);
+}
+
+.clothesCentered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.homeButtonCentre{
+    top: 80%;
+}
+
+.nav-link{
+    padding: 0;
+    margin: .5rem 1rem; 
+}
+
+.indexLink{
+    padding: 5px;
+}
+
+.autoWidth{
+    width: auto !important;
+    display: inline-block;
+}
+
+.vertAlign{
+    vertical-align: top !important;
+}
+
+.clothingHeaderEdit{
+    color: #1C1F2E !important;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.spanSizing{
+    width: 28%;
+}
+
+.btn-navyblue {
+    background-color: #1C1F2E;
+    color: white;
+}
+
+.btn-navyblue:hover{
+    background-color: #3a3e53;
+    color: white;
+}
+
+.alert-beige{
+    background-color: #3a3e53;
+    color: #ffffff;
+}
+
+.navLinksEdit {
+    color: #1C1F2E !important;
+    list-style: none;
+}
+
+.sticky{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.clothingHeaderEdit:hover{
+    text-decoration: none;
+    color: white !important;
+}
+
+.cardBdyEdit{
+    background-color: #ffffff;
+}
+
+
+.clothingBtnEdit{
+    color: white;
+    border-color: white;
+}
+
+.clothingBtnEdit:hover{
+    background-color: #F8F0E3;
+    color: #1C1F2E;
+}
+
+.backgroundModel{
+    width: 100%;
+}
+
+.broadwayAvenue{
+    width: 100%;
+}
+
+.linkWidth {
+    width: 307px;
+    display: inline-block;
+}
+
+.ordersIMGSize{
+    width: 250px;
+}
+
+.vh-100{
+    height: 100vh !important; 
+}
+
+.profileIconSize {
+    width: 40px;
+}
+
+.responsiveNAV{
+    display: none;
+}
+
+.desktopNAV{
+    display: block;
+}
+
+.maltaFlag{
+    width: 3px;
+    height: 3px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .langingPageText {
+        font-size: 100px;
+    }
+
+    .responsiveNAV {
+        display: block;
+        background-color: #F1EDEE;
+    }
+
+    .responisveNAVEdit {
+        background-color: #F1EDEE;
+    }
+
+    .desktopNAV{
+        display: none;
+    }
+
+    .landingPageBtn {
+        display: none !important;
+    }
+
+    .secondFooter{
+        display: none;
+    }
+
+    .thirdFooter{
+        height: 45px;
+    }
+
+    .profileIconSize {
+        display: none;
+    }
+}
